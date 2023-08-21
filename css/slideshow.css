@@ -1,0 +1,26 @@
+.hero-slider {
+  width: 80px; /* Set the desired width */
+  height: 60px; /* Set the desired height */
+  overflow: hidden; /* Hide overflow content */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Style for individual slider items */
+.hero-slider .hs-item {
+  width: 10%; /* Maeke each item fill the container width */
+  height: 100%; /* Make each item fill the container height */
+}
+
+/* Style for the background image of each slider item */
+.hero-slider .hs-item .set-bg {
+  width: 10%; /* Make the background image fill the item width */
+  height: 10%; /* Make the background image fill the item height */
+  background-size: cover; /* Maintain aspect ratio and cover the item */
+  background-position: center center; /* Center the background image */
+}
+
+/* Additional styling for text and buttons within the slider */
+
+  /* Add your text styles here */
+
+
